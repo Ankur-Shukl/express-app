@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t Shukla-Ankur/docker-react -f dockerfile.dev .
+  - docker build -t shukla-ankur/docker-react -f dockerfile.dev .
 
 script:
-  - 
+  - docker run shukla-ankur/docker-react npm run test
