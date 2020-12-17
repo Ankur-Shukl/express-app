@@ -1,8 +1,12 @@
 {
     "dependencies": {
-      "express": "*"
+        "express": "*",
+        "react-scripts": "4.0.1",
+        "mocha": "5.2.0"
     },
     "scripts": {
-      "start": "node index.js"
+        "start": "node index.js",
+        "test": "mocha test/simpleTest.test.js",
+        "eject": "react-scripts eject"
     }
 }
